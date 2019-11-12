@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
         'Resource' => ['Assets/*']
     }
-  s.source_files = 'FuturesToolsFW/*.{h,m}'
+  s.source_files  = "FuturesToolsFW/*.{h,m}"
   s.requires_arc = true
 
 end
