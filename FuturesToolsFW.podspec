@@ -9,10 +9,15 @@ Pod::Spec.new do |s|
   s.license              = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "liuzhentong0717" => "liuzhentong0717@163.com" }
   s.source       = { :git => "https://github.com/liuzhentong0717/FuturesToolsFW.git", :tag => "1.0.0" }
-  s.source_files  = "Classes/*.{h,m}"
+  #s.source_files  = "Classes/*.{h,m}"
+  #s.resource_bundles = {
+   #     'Resource' => ['Assets/*']
+    #}
+  s.source_files = 'FuturesToolsFW/Classes/**/*'
   s.resource_bundles = {
-        'Resource' => ['Assets/*']
-    }
+     'Resource' => ['FuturesToolsFW/Assets/*.png']
+   }
+
   s.requires_arc = true
 
 end
