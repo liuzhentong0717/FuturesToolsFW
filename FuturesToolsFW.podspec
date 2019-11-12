@@ -14,8 +14,6 @@ Pod::Spec.new do |s|
     }
   s.frameworks = 'Foundation', 'UIKit', 
   s.source_files = 'FuturesToolsFW/*.{h,m}'
- # s.public_header_files = 'FuturesToolsFW/FuturesToolsFW.framework/Headers/FuturesToolsFW.h'
-  #s.vendored_frameworks = 'FuturesToolsFW/FuturesToolsFW.framework'
   s.requires_arc = true
 
 end
