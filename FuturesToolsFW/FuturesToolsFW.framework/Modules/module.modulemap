@@ -1,0 +1,6 @@
+framework module FuturesToolsFW {
+  umbrella header "FuturesToolsFW.h"
+
+  export *
+  module * { export * }
+}
