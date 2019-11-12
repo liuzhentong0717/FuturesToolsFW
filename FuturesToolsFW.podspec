@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/liuzhentong0717/FuturesToolsFW.git", :tag => "1.0.0" }
   s.resources          = "Assets/FuturesToolsBundle.bundle"
   s.frameworks = 'Foundation', 'UIKit', 
-  s.vendored_frameworks = 'FuturesToolsFW.framework'
+  s.vendored_frameworks = 'FuturesToolsFW/FuturesToolsFW.framework'
   s.requires_arc = true
 
 end
