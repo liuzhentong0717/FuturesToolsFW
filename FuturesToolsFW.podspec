@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FuturesToolsFW"
-  s.version      = "2.0.0"
+  s.version      = "2.0.1"
   s.platform     = :ios, "10.0"
 
   s.summary      = "期货成本换算工具"
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     #}
   s.source_files = 'FuturesToolsFW/Classes/*.{h,m}'
   s.resource_bundles = {
-     'Resource' => ['FuturesToolsFW/Assets/*.png']
+     'Resource' => ['FuturesToolsFW/Assets/*.*']
    }
 
   s.requires_arc = true
