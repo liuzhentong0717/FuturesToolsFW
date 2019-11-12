@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
         'Resource' => ['Assets/*']
     }
-  s.frameworks = 'Foundation', 'UIKit', 
   s.source_files = 'FuturesToolsFW/*.{h,m}'
   s.requires_arc = true
 
